@@ -1,6 +1,6 @@
 <?php
 
-namespace Src\Contracts;
+namespace Paginate\Contracts;
 
 use LogicException;
 

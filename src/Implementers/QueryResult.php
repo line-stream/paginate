@@ -1,8 +1,8 @@
 <?php
 
-namespace Src\Implementers;
+namespace Paginate\Implementers;
 
-use Src\Contracts\QueryResult as QueryResultContract;
+use Paginate\Contracts\QueryResult as QueryResultContract;
 
 abstract class QueryResult implements QueryResultContract
 {

@@ -1,11 +1,11 @@
 <?php
 
-namespace Src\QueryBuilders\DBAL;
+namespace QueryBuilders\DBAL;
 
 use Doctrine\DBAL\Exception;
 use Doctrine\DBAL\Query\QueryBuilder as DBALQueryBuilder;
 use LogicException;
-use Src\Implementers\QueryBuilder as BaseQueryBuilder;
+use Paginate\Implementers\QueryBuilder as BaseQueryBuilder;
 
 class QueryBuilder extends BaseQueryBuilder
 {

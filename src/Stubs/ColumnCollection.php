@@ -1,6 +1,6 @@
 <?php
 
-namespace Src\Stubs;
+namespace Paginate\Stubs;
 
 abstract class ColumnCollection
 {

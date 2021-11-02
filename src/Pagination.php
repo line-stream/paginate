@@ -1,11 +1,11 @@
 <?php
 
-namespace src;
+namespace Paginate;
 
 use Doctrine\DBAL\Exception;
 use LogicException;
-use Src\Implementers\QueryBuilder;
-use Src\Stubs\{Column, PaginationColumns};
+use Paginate\Implementers\QueryBuilder;
+use Paginate\Stubs\{Column, PaginationColumns};
 use Throwable;
 
 class Pagination

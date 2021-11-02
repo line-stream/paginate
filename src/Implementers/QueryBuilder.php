@@ -1,9 +1,9 @@
 <?php
 
-namespace Src\Implementers;
+namespace Paginate\Implementers;
 
 use LogicException;
-use Src\Contracts\QueryBuilder as QueryBuilderContract;
+use Paginate\Contracts\QueryBuilder as QueryBuilderContract;
 
 abstract class QueryBuilder implements QueryBuilderContract
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace Src\QueryBuilders\DBAL;
+namespace QueryBuilders\DBAL;
 
 use Doctrine\DBAL\{Exception, Result};
-use src\Implementers\QueryResult as BaseQueryResult;
+use Paginate\Implementers\QueryResult as BaseQueryResult;
 
 class QueryResult extends BaseQueryResult
 {
